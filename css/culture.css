@@ -1,0 +1,150 @@
+header {
+    background-color: #23a18f;
+    color: white;
+    padding: 10px;
+    /* padding-left: 0px; */
+    position: fixed;
+    left: 0px;
+    width: 10%;
+    height: 10%;
+    top: 0;
+}
+
+.dropbtn {
+    background-color: #23a18f;
+    color: #d9f3dd;
+    padding: 16px;
+    font-size: 16px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #d9f3dd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #d9f3dd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #23a18f;
+}
+
+h1 {
+    text-align: center;
+    font-family: verdana;
+    font-weight: 50;
+    text-transform: capitalize;
+    margin-bottom: 150px;
+    background-color:rgb(39, 38, 38) ;
+    color: rgb(236, 230, 223);
+    border-style: solid;
+    border-color:rgb(39, 38,38) ;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+p {
+    border-style: solid;
+    text-align: center;
+    font-family: verdana;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    border-color:rgb(12, 77,34) ;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border-radius: 15px; 
+    font-weight: 50;  
+    
+    text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+
+}
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+.div1 {
+
+    color: rgb(15, 41, 63);
+    text-align: center;
+	
+}
+.div2 {
+
+    text-align: center;
+}
+.div3 {
+    text-align: center;
+
+}
+.div4 {
+        text-align: center;
+
+}
+.div5 {
+text-align: center;
+
+}
+
+
+.div6 {
+    text-align: center;
+    
+    }
+
+
+.div7 {
+        text-align: center;
+        
+        }
+
+p:hover{
+    background-color: rgb(223, 230, 226);
+  }
+  
+ img{
+		
+		border-radius: 5px;
+        transition: 1s;
+
+	}
+
+
+img:hover{
+		transform: scale(1.2);
+		z-index: 2;
+	}
+h1:hover{
+    background-color:rgb(39, 38, 38) ;
+
+}
+    
