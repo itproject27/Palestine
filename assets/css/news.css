@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header {
+    background-color: #23a18f;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 10%;
+    height: 10%;
+    top: 0;
+}
+
+.dropbtn {
+    background-color: #23a18f;
+    color: #d9f3dd;
+    padding: 16px;
+    font-size: 16px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #d9f3dd;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #d9f3dd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #23a18f;
+}
+
+.logod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logot {
+    color: #d9f3dd;
+    font-weight: 900;
+    font-size: 1.4em;
+}
+
+.logot:hover {
+    color: #20d374;
+    transition: background-color 0.3s ease;
+}
+
+.logoP {
+    color: #d9f3dd;
+}
+
+.logo {
+    text-decoration: none;
+    color: #d9f3dd;
+}
+
+.navigation a {
+    font-size: 1.2em;
+    padding: 10px;
+    color: #d9f3dd;
+    border-radius: 27%;
+    /* Make the background perfectly circular */
+    transition: ease 0.5s;
+}
+
+.navigation a:hover {
+    color: #20d374;
+    background-color: #d9f3dd;
+    /* Change the background color on hover */
+    transform: scale(1.1);
+}
+
+.news {
+    height: 100vh;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 14ch;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    width: 30em;
+    box-shadow: 0px 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    margin-top: 0px;
+    transition: ease 0.5s;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.cards .card .icon {
+    font-size: 5.5em;
+}
+
+.info h3 {
+    font-family: system-ui;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.card a {
+    display: contents;
+}
+
+.fa-newspaper:before {
+    content: "\f1ea";
+    color: brown;
+}
+
+.info P {
+    MARGIN: 7PX 27PX;
+}

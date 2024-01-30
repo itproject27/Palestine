@@ -1,0 +1,297 @@
+header {
+  background-color: #23a18f;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  width: 10%;
+  height: 14%;
+  top: 0;
+}
+
+.dropbtn {
+  background-color: #23a18f;
+  color: #d9f3dd;
+  padding: 16px;
+  font-size: 16px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #d9f3dd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #d9f3dd}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #23a18f;
+}
+
+
+h2{
+    color: darkgreen !important;
+}
+img:hover{
+    transform: scale(1.1) ;
+    transition-duration: 0.7s;
+}
+img{
+    cursor: pointer;
+}
+.DetailsLink{
+    text-decoration: none;
+    color: darkred;
+    font-weight: bolder;
+}
+.DetailsLink:hover{
+    color: darkgreen;
+    transition-duration: 1s;
+
+}
+
+.sec3{
+    margin-top: 150px;
+}
+.sec4{
+    margin-top: 50px;
+}
+.sec2{
+    margin-top: 70px;
+}
+.sec1{
+    margin-top: 50px;
+}
+
+body{
+    background-color:#eee ;
+}
+
+.animation h3::after{
+    content: "|";
+    animation-name: text;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    color: darkred;
+    font-size: 70px;
+
+
+}
+@keyframes text {
+    0%{content: "#"}
+    2%{content: "#|"}
+    4%{content: "#S|"}
+    6%{content: "#Sa|"}
+    8%{content: "#Sav|"}
+    10%{content: "#Save|"}
+    12%{content: "#Save G|"}
+    14%{content: "#Save Ga|"}
+    16%{content: "#Save Gaz|"}
+    18%{content: "#Save Gaza|"}
+    20%{content: "#Save Gaz|"}
+    22%{content: "#Save Ga|"}
+    24%{content: "#Save G|"}
+    26%{content: "#Save|"}
+    28%{content: "#Sav|"}
+    30%{content: "#Sa|"}
+    32%{content: "#S|"}
+    34%{content: "#|"}
+    36%{content: "#F|"}
+    38%{content: "#Fr|"}
+    40%{content: "#Fre|"}
+    42%{content: "#Free|"}
+    44%{content: "#Free P|"}
+    46%{content: "#Free Pa|"}
+    48%{content: "#Free Pal|"}
+    50%{content: "#Free Pale|"}
+    52%{content: "#Free Pales|"}
+    54%{content: "#Free Palest|"}
+    56%{content: "#Free Palesti|"}
+    58%{content: "#Free Palestin|"}
+    60%{content: "#Free Palestine|"}
+    63%{content: "#Free Palestin|"}
+    66%{content: "#Free Palesti|"}
+    69%{content: "#Free Palest|"}
+    72%{content: "#Free Pales|";}
+    75%{content: "#Free Pale|";}
+    78%{content: "#Free Pal|";}
+    81%{content: "#Free Pa|";}
+    84%{content: "#Free P|";}
+    87%{content: "#Free |";}
+    90%{content: "#Fre|";}
+    93%{content: "#Fr|";}
+    96%{content: "#F|";}
+    100%{content: "#|";}
+
+}
+.line{
+    color: darkred;
+}
+
+.center-line {
+  
+    position: absolute;
+    width: 50%; 
+    height: 2px; 
+    background-color: darkred;
+    
+  }
+  .sec1{
+    position: relative;
+  }
+  .sec2{
+    position: relative;
+  }
+  .sec3{
+    position: relative;
+  }
+  .sec4{
+    position: relative;
+  }
+  .sec5{
+    position: relative;
+  }
+  .sec6{
+    position: relative;
+  }
+  .sec7{
+    position: relative;
+  }
+  .sec8{
+    position: relative;
+  }
+  .sec9{
+    position: relative;
+  }
+  .sec10{
+    position: relative;
+  }
+  #details1{
+    background-color: #eee;
+position: absolute;
+bottom: 250px;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+display: none;
+}
+  #details2{
+    background-color: #eee;
+position: absolute;
+bottom: 200px;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+display: none;
+}
+  #details3{
+    background-color: #eee;
+position: absolute;
+bottom: 250px;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+display: none;
+}
+  #details4{
+    background-color: #eee;
+position: absolute;
+bottom: 200px;
+height: 300px;
+display: none;
+justify-content: center;
+align-items: center;
+}
+  #details5{
+    background-color: #eee;
+position: absolute;
+bottom: 250px;
+height: 300px;
+justify-content: center;
+align-items: center;
+display: none;
+}
+  #details6{
+    background-color: #eee;
+position: absolute;
+bottom: 250px;
+height: 300px;
+justify-content: center;
+align-items: center;
+display: none;
+}
+
+a{
+    cursor: pointer;
+}
+#close1{
+
+font-size: 2px;
+position: absolute;
+top: 0%;
+right: 0%;
+
+}
+#close2{
+
+font-size: 2px;
+position: absolute;
+top: 0%;
+right: 0%;
+
+}
+#close3{
+
+font-size: 2px;
+position: absolute;
+top: 0%;
+right: 0%;
+
+}
+#close4{
+
+font-size: 2px;
+position: absolute;
+top: 0%;
+right: 0%;
+
+}
+#close5{
+
+font-size: 2px;
+position: absolute;
+top: 0%;
+right: 0%;
+
+}
+#close6{
+
+font-size: 2px;
+position: absolute;
+top: 0%;
+right: 0%;
+
+}
