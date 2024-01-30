@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #23a18f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+main {
+    margin-top: 80px; /* Adjust according to your header height */
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.click-box {
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.map-img {
+    width: 300px; /* Adjust the size of the map image as needed */
+    height: 600px;
+    margin: 20px 0;
+    border-radius: 0;
+}
+
+.map-img:hover {
+    transform: scale(1);
+}
+
+.instruction-text {
+    border-radius: 20%;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #23a18f;
+    border-width: 10%;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    margin: 10px; /* Space between each image */
+    border-radius: 5%;
+}
+
+img:hover {
+    transform: scale(1.1) ;
+    transition-duration: 0.7s;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for the 4x4 grid */
+    gap: 40px; /* Space between each row */
+    margin-bottom: 100px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; /* Change the background color to white */
+    padding: 20px;
+    color: black; /* Change text color to black */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+.popup-content {
+    position: relative;
+}
+
+.close {
+    position: fixed;
+    border: 2%;
+    top: 1%; /* Adjust the distance from the top */
+    right: 3%; /* Adjust the distance from the right */
+    font-size: 24px; /* Adjust the font size to make the "x" larger */
+    cursor: pointer;
+}
+
+
+img:hover + .image-label {
+    display: block;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container p {
+    margin-top: 5px;
+}
